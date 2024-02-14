@@ -1,8 +1,13 @@
 {
   "name": "unity-color",
   "displayName": "Unity Color",
-  "description": "",
-  "version": "0.0.1",
+  "publisher": "Sthuarty",
+  "description": "Converts colors to Unity Engine format.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sthuarty/unity-color-vscode-extension.git"
+  },
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.86.0"
   },

@@ -1,5 +1,8 @@
 # Unity Color
 
+**Currently** only converts colors from **hexadecimal** format.
+
+
 ## Hexadecimal color to UnityEngine.Color
 
 Select hexadecimal color, `Cmd+Shift+P` on macOS or `Ctrl+Shift+P` and search for "Convert hexdecimal color to UnityEngine.Color"
@@ -13,7 +16,7 @@ For example:
 
 ### 1.0.0
 
-Initial release of exadecimal color to UnityEngine.Color feature
+Initial release of hexadecimal color to UnityEngine.Color feature
 
 ---
 
