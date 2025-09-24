@@ -1,6 +1,5 @@
 const vscode = require('vscode');
 
-var editor = vscode.window.activeTextEditor;
 
 const hexMap = {
 	"0": 0,
@@ -24,8 +23,10 @@ const hexMap = {
 
 function activate(context) {
 	let disposable = vscode.commands.registerCommand('unity-color.convert-hex', function () {
+		const editor = vscode.window.activeTextEditor;
 		const selection = editor.selection;
 		const selectionRange = new vscode.Range(selection.start.line, selection.start.character, selection.end.line, selection.end.character);
+
 		var selectedText = editor.document.getText(selectionRange);
 
 		if (selectedText.length == 0) {
